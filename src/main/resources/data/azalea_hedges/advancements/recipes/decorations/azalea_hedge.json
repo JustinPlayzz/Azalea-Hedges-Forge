@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "azalea_hedges:azalea_hedge"
+    ]
+  },
+  "criteria": {
+    "has_azalea": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:azalea"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "azalea_hedges:azalea_hedge"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_azalea",
+      "has_the_recipe"
+    ]
+  ]
+}

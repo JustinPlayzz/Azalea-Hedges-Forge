@@ -1,0 +1,24 @@
+modLoader="javafml" #mandatory
+loaderVersion="[37,)" #mandatory
+license="MIT"
+[[mods]] #mandatory
+modId="azalea_hedges" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="Azalea Hedges" #mandatory
+logoFile="icon.png"
+authors="Evo_934, JustinPlayzz, StevenPlayzz"
+description='''
+Adds One New Block Called the Azalea Hedge!
+'''
+[[dependencies.azalea_hedges]]
+    modId="forge"
+    mandatory=true
+    versionRange="[37,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.azalea_hedges]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.17.1,1.18)"
+    ordering="NONE"
+    side="BOTH"
